@@ -1,0 +1,54 @@
+.movie__list{
+    display: grid;
+    place-items: center;
+    grid-template-columns : minmax(300px, max-content)
+    repeat(auto-fill, 300px) 25%;
+}
+.movie__wrapper{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--stone);
+}
+.movie__image{
+    height: 150px;
+    width: 200px;
+}
+.movie__title{
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-break: anywhere;
+    word-break: break-word;
+}
+.movie__options{
+    font-size: 0.8rem;
+    font-weight: 550;
+    line-height: 0.9;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display:  flex;
+    flex-direction: row;
+}
+.movie-description{
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.movie__button{
+    padding : 0.8rem ;
+    border: 0.125rem solid transparent;
+  
+    font-weight: 1000;
+    width : 5rem;
+}
+.primary {
+    background-color: var(--aqua);
+    color: var(--stone);
+}
+.secondary {
+    background-color: var(--stone);
+    color: var(--aqua);
+}

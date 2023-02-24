@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+  --aqua : #22d3ee;
+  --slate  : #0f172a;
+  --stone : #44403c;
+  --neutral : #d4d4d4;
+  --whitesmoke : whitesmoke;
+}
+
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+html,body {
+  height: 100vh;
+
+}
+.inline {
+  display: inline;
+}

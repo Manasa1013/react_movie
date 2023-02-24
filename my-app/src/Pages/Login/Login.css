@@ -1,0 +1,48 @@
+.flex-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 30rem;
+    flex-direction: column;
+    background-color: var(--neutral);
+    margin-top: 3rem;
+}
+
+.login-head{
+    color : var(--stone);
+    padding: 1rem;
+    margin: 0.5rem 0 1rem 0;
+}
+.field-container{
+    border: none;
+}
+.email, .password {
+    width: 13rem;
+    padding: 0.65rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.125rem;
+    border: 0.125rem solid transparent;
+    outline-color: var(--aqua);
+    color: var(--stone);
+}   
+.login__button--container{
+    margin: 1rem 0.5rem;
+    
+}
+.login__button{
+    padding: 0.8em;
+    width: 13rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color: var(--aqua);
+    border: 0.125rem solid transparent;
+    color: var(--stone);
+    font-weight: 1000;
+    
+}
